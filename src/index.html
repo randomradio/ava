@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVA - Video Transcription Tool</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>AVA - Video Transcription Tool</h1>
+      
+      <div class="config-section">
+        <h2>Configuration</h2>
+        <div class="form-group">
+          <label for="api-key">OpenRouter API Key:</label>
+          <input type="password" id="api-key" placeholder="Enter your OpenRouter API key" />
+        </div>
+      </div>
+
+      <div class="upload-section">
+        <h2>Select Video File</h2>
+        <button id="select-video-btn">Select Video File</button>
+        <div id="selected-file" class="file-info"></div>
+      </div>
+
+      <div class="process-section">
+        <button id="process-btn" disabled>Process Video</button>
+        <div id="progress" class="progress-container">
+          <div id="progress-bar" class="progress-bar"></div>
+          <div id="progress-text">Ready to process</div>
+        </div>
+      </div>
+
+      <div class="results-section">
+        <div class="transcription-section">
+          <h2>Transcription</h2>
+          <div id="transcription-result" class="result-box"></div>
+        </div>
+
+        <div class="screenshots-section">
+          <h2>Screenshots with Captions</h2>
+          <div id="screenshots-container" class="screenshots-grid"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
