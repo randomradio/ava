@@ -22,11 +22,7 @@
   },
   "plugins": {
     "fs": {
-      "scope": ["**"]
-    },
-    "dialog": {
-      "open": true,
-      "save": true
+      "requireLiteralLeadingDot": false
     }
   },
   "bundle": {

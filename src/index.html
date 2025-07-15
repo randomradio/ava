@@ -22,7 +22,11 @@
 
       <div class="upload-section">
         <h2>Select Video File</h2>
-        <button id="select-video-btn">Select Video File</button>
+        <div class="form-group">
+          <label for="video-path">Video File Path:</label>
+          <input type="text" id="video-path" placeholder="Enter full path to video file (e.g., /Users/user/video.mp4)" />
+          <button id="select-video-btn">Select Video File</button>
+        </div>
         <div id="selected-file" class="file-info"></div>
       </div>
 

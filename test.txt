@@ -1,0 +1,31 @@
+I'm excited that you do's a new few extraction capability.
+Few extraction enables you to directly extract structured data from documents.
+For example, if you have a huge set of invoices and want to extract the date,
+vendingame, and items listed in every invoice, then a genetic document extraction
+now lets you clearly specify what data you want to extract using something called a schema,
+and then try to consistently extract those fields for you.
+Here's a sample invoice. I'm uploading this invoice to the agentate document extraction
+interface which processes the document and then presents some suggestions for fields extract,
+like invoice number, date, and vending details.
+The specification of what fields extract, the thing here is called a schema.
+For example, it says that the billing name is a string, and the line items are captured in an array,
+and so on, and you can edit a schema if you wish to suit your application.
+But I'm just going to accept the suggested schema and run it against the document.
+A few seconds later it has extracted the fields. For example, the invoice number,
+and the invoice total, and here it also has the list of all the items in this invoice.
+If you want to double check one of the answers, you can click on it, like I'm doing here,
+for the total amount that is 40,066,38, and the user interface also shows the visual grounding,
+meaning in the case where the document is extracted at few.
+I'm demonstrating this in the web user interface. For developers, the schema gets
+compiled to a set of pidantic clauses which is a common tool for validating data.
+You can see the code here. And when you run this in code, you paste the pidantic clause definitions into your code,
+which I've done here in the Jupyter notebook. Then using the agentate document extraction
+Python library with just a few lines of code like this shown here, you can extract the
+fields from an invoice and again, you can get all the fields extracted.
+Few extraction is useful for any repetitive document processing, such as if you have a large
+collection of patient data records and wants to extract out the patient name, patient ID,
+diagnostics, and so on from each record. Or if you have a large collection of car insurance
+claim forms and want to extract out the data, the incident, vehicle information, and insurance
+information. Many businesses and individuals have huge collections of forms save somewhere.
+Few extraction lets you quickly extract out the key fields from these documents for batch
+processing. I hope you find this useful and I look forward to seeing what you build of it.
