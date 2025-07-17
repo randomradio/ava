@@ -1,8 +1,11 @@
+mod task_manager;
+
 use base64::{engine::general_purpose::STANDARD as BASE64, Engine as _};
 use serde::{Deserialize, Serialize};
 use serde_json::json;
 use std::process::Command;
 use tempfile::NamedTempFile;
+use task_manager::*;
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct TranscriptionSegment {
@@ -362,7 +365,18 @@ pub fn run() {
             analyze_transcription_for_screenshots,
             capture_screenshot,
             caption_image_openrouter,
-            process_video_complete
+            process_video_complete,
+            create_task,
+            get_task,
+            get_all_tasks,
+            process_task,
+            get_queued_tasks,
+            get_processing_tasks,
+            get_completed_tasks,
+            get_failed_tasks,
+            remove_task,
+            clear_completed_tasks,
+            queue_next_task
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
