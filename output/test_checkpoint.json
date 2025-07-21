@@ -1,0 +1,344 @@
+{
+  "video_path": "/Users/randomradio/src/ava/test.mp4",
+  "transcription": [
+    {
+      "start": 0.0,
+      "end": 3.68,
+      "text": "I'm excited that you do's a new few extraction capability."
+    },
+    {
+      "start": 3.68,
+      "end": 9.52,
+      "text": "Few extraction enables you to directly extract structured data from documents."
+    },
+    {
+      "start": 9.52,
+      "end": 14.96,
+      "text": "For example, if you have a huge set of invoices and want to extract the date,"
+    },
+    {
+      "start": 14.96,
+      "end": 20.56,
+      "text": "vendingame, and items listed in every invoice, then a genetic document extraction"
+    },
+    {
+      "start": 20.56,
+      "end": 26.96,
+      "text": "now lets you clearly specify what data you want to extract using something called a schema,"
+    },
+    {
+      "start": 27.04,
+      "end": 30.560000000000002,
+      "text": "and then try to consistently extract those fields for you."
+    },
+    {
+      "start": 30.560000000000002,
+      "end": 36.64,
+      "text": "Here's a sample invoice. I'm uploading this invoice to the agentate document extraction"
+    },
+    {
+      "start": 36.64,
+      "end": 42.72,
+      "text": "interface which processes the document and then presents some suggestions for fields extract,"
+    },
+    {
+      "start": 42.72,
+      "end": 46.64,
+      "text": "like invoice number, date, and vending details."
+    },
+    {
+      "start": 47.6,
+      "end": 52.64,
+      "text": "The specification of what fields extract, the thing here is called a schema."
+    },
+    {
+      "start": 53.52,
+      "end": 60.4,
+      "text": "For example, it says that the billing name is a string, and the line items are captured in an array,"
+    },
+    {
+      "start": 60.96,
+      "end": 65.76,
+      "text": "and so on, and you can edit a schema if you wish to suit your application."
+    },
+    {
+      "start": 66.88,
+      "end": 72.0,
+      "text": "But I'm just going to accept the suggested schema and run it against the document."
+    },
+    {
+      "start": 72.0,
+      "end": 77.44,
+      "text": "A few seconds later it has extracted the fields. For example, the invoice number,"
+    },
+    {
+      "start": 78.32,
+      "end": 85.44,
+      "text": "and the invoice total, and here it also has the list of all the items in this invoice."
+    },
+    {
+      "start": 87.2,
+      "end": 91.6,
+      "text": "If you want to double check one of the answers, you can click on it, like I'm doing here,"
+    },
+    {
+      "start": 92.24,
+      "end": 100.24,
+      "text": "for the total amount that is 40,066,38, and the user interface also shows the visual grounding,"
+    },
+    {
+      "start": 100.24,
+      "end": 103.75999999999999,
+      "text": "meaning in the case where the document is extracted at few."
+    },
+    {
+      "start": 104.08,
+      "end": 111.36,
+      "text": "I'm demonstrating this in the web user interface. For developers, the schema gets"
+    },
+    {
+      "start": 111.36,
+      "end": 118.16000000000001,
+      "text": "compiled to a set of pidantic clauses which is a common tool for validating data."
+    },
+    {
+      "start": 118.80000000000001,
+      "end": 120.56,
+      "text": "You can see the code here."
+    },
+    {
+      "start": 124.0,
+      "end": 130.72,
+      "text": "And when you run this in code, you paste the pidantic clause definitions into your code,"
+    },
+    {
+      "start": 131.2,
+      "end": 133.6,
+      "text": "which I've done here in the Jupyter notebook."
+    },
+    {
+      "start": 134.48,
+      "end": 138.96,
+      "text": "Then using the agentate document extraction Python library,"
+    },
+    {
+      "start": 139.6,
+      "end": 146.24,
+      "text": "with just a few lines of code like this shown here, you can extract the fields from an invoice"
+    },
+    {
+      "start": 146.24,
+      "end": 149.44,
+      "text": "and again, you can get all the fields extracted."
+    },
+    {
+      "start": 151.44,
+      "end": 155.76,
+      "text": "A few extraction is useful for any repetitive document processing,"
+    },
+    {
+      "start": 155.76,
+      "end": 161.12,
+      "text": "such as if you have a large collection of patient data records and wants to extract out the"
+    },
+    {
+      "start": 161.12,
+      "end": 164.88,
+      "text": "patient name, patient ID, diagnostics, and so on from each record."
+    },
+    {
+      "start": 165.44,
+      "end": 171.04,
+      "text": "Or if you have a large collection of car insurance claim forms and want to extract out the data,"
+    },
+    {
+      "start": 171.04,
+      "end": 174.39999999999998,
+      "text": "the incident, vehicle information, and insurance information."
+    },
+    {
+      "start": 175.44,
+      "end": 180.07999999999998,
+      "text": "Many businesses and individuals have huge collections of forms save somewhere."
+    },
+    {
+      "start": 180.8,
+      "end": 185.92000000000002,
+      "text": "Fear the extraction less you quickly extract out the key fields from these documents for batch"
+    },
+    {
+      "start": 185.92000000000002,
+      "end": 190.64000000000001,
+      "text": "processing. I hope you find this useful and I look forward to seeing what you build of it."
+    }
+  ],
+  "screenshots": [
+    {
+      "timestamp": 3.68,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0000.jpg",
+      "text": "Few extraction enables you to directly extract str..."
+    },
+    {
+      "timestamp": 9.52,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0001.jpg",
+      "text": "For example, if you have a huge set of invoices an..."
+    },
+    {
+      "timestamp": 14.96,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0002.jpg",
+      "text": "vendingame, and items listed in every invoice, the..."
+    },
+    {
+      "timestamp": 20.56,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0003.jpg",
+      "text": "now lets you clearly specify what data you want to..."
+    },
+    {
+      "timestamp": 27.04,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0004.jpg",
+      "text": "and then try to consistently extract those fields ..."
+    },
+    {
+      "timestamp": 30.560000000000002,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0005.jpg",
+      "text": "Here's a sample invoice. I'm uploading this invoic..."
+    },
+    {
+      "timestamp": 36.64,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0006.jpg",
+      "text": "interface which processes the document and then pr..."
+    },
+    {
+      "timestamp": 42.72,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0007.jpg",
+      "text": "like invoice number, date, and vending details."
+    },
+    {
+      "timestamp": 47.6,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0008.jpg",
+      "text": "The specification of what fields extract, the thin..."
+    },
+    {
+      "timestamp": 53.52,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0009.jpg",
+      "text": "For example, it says that the billing name is a st..."
+    },
+    {
+      "timestamp": 60.96,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0010.jpg",
+      "text": "and so on, and you can edit a schema if you wish t..."
+    },
+    {
+      "timestamp": 66.88,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0011.jpg",
+      "text": "But I'm just going to accept the suggested schema ..."
+    },
+    {
+      "timestamp": 72.0,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0012.jpg",
+      "text": "A few seconds later it has extracted the fields. F..."
+    },
+    {
+      "timestamp": 78.32,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0013.jpg",
+      "text": "and the invoice total, and here it also has the li..."
+    },
+    {
+      "timestamp": 87.2,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0014.jpg",
+      "text": "If you want to double check one of the answers, yo..."
+    },
+    {
+      "timestamp": 92.24,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0015.jpg",
+      "text": "for the total amount that is 40,066,38, and the us..."
+    },
+    {
+      "timestamp": 100.24,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0016.jpg",
+      "text": "meaning in the case where the document is extracte..."
+    },
+    {
+      "timestamp": 104.08,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0017.jpg",
+      "text": "I'm demonstrating this in the web user interface. ..."
+    },
+    {
+      "timestamp": 111.36,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0018.jpg",
+      "text": "compiled to a set of pidantic clauses which is a c..."
+    },
+    {
+      "timestamp": 118.80000000000001,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0019.jpg",
+      "text": "You can see the code here."
+    },
+    {
+      "timestamp": 124.0,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0020.jpg",
+      "text": "And when you run this in code, you paste the pidan..."
+    },
+    {
+      "timestamp": 131.2,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0021.jpg",
+      "text": "which I've done here in the Jupyter notebook."
+    },
+    {
+      "timestamp": 134.48,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0022.jpg",
+      "text": "Then using the agentate document extraction Python..."
+    },
+    {
+      "timestamp": 139.6,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0023.jpg",
+      "text": "with just a few lines of code like this shown here..."
+    },
+    {
+      "timestamp": 146.24,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0024.jpg",
+      "text": "and again, you can get all the fields extracted."
+    },
+    {
+      "timestamp": 151.44,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0025.jpg",
+      "text": "A few extraction is useful for any repetitive docu..."
+    },
+    {
+      "timestamp": 155.76,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0026.jpg",
+      "text": "such as if you have a large collection of patient ..."
+    },
+    {
+      "timestamp": 161.12,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0027.jpg",
+      "text": "patient name, patient ID, diagnostics, and so on f..."
+    },
+    {
+      "timestamp": 165.44,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0028.jpg",
+      "text": "Or if you have a large collection of car insurance..."
+    },
+    {
+      "timestamp": 171.04,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0029.jpg",
+      "text": "the incident, vehicle information, and insurance i..."
+    },
+    {
+      "timestamp": 175.44,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0030.jpg",
+      "text": "Many businesses and individuals have huge collecti..."
+    },
+    {
+      "timestamp": 180.8,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0031.jpg",
+      "text": "Fear the extraction less you quickly extract out t..."
+    },
+    {
+      "timestamp": 185.92000000000002,
+      "file": "/Users/randomradio/src/ava/output/screenshot_0032.jpg",
+      "text": "processing. I hope you find this useful and I look..."
+    }
+  ],
+  "current_time": 300,
+  "status": "completed"
+}
